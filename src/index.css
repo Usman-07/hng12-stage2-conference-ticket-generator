@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'JejuMyeongjo';
+    src: url('https://cdn.jsdelr.net/gh/projectnoonnu/noonfonts_2107@1.0/JejuMyeongjo.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@media print {
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+img {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+
+.jeju-font {
+    font-family: 'JejuMyeongjo', serif;
+}
+
+.road-rage-regular {
+    font-family: "Road Rage", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.btn-primary {
+    border-radius: 8px;
+    background: #24A0B5;
+    display: flex;
+    padding: 10px 54px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btn-primary:hover {
+    background: transparent;
+    border: 2px solid #24A0B5;
+    color: #24A0B5;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid #24A0B5;
+    display: flex;
+    padding: 10px 44px;
+    justify-content: center;
+    align-items: center;
+    color: #24A0B5;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #24A0B5;
+    color: white;
+}
+
+.card-btn {
+    display: flex;  
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    color: white;
+    background: transparent;
+    border: 2px solid #197686;
+    border-radius: 12px;
+    transition: 0.3s, border 0.3s;
+}
+
+.card-btn:hover {
+    background: #12464E;
+}
+
+.card-btn.active {
+    background: #12464E;
+  
+}
+
